@@ -101,30 +101,6 @@ const Navbar = () => {
                 <FaHome className="mr-2" />
                 Home
               </Link>
-              <Link
-                to="/tour"
-                className="flex items-center py-2 px-4 hover:bg-gray-200 rounded"
-                onClick={closeMenu}
-              >
-                <FaMap className="mr-2" />
-                Tour
-              </Link>
-              <Link
-                to="/accommodations"
-                className="flex items-center py-2 px-4 hover:bg-gray-200 rounded"
-                onClick={closeMenu}
-              >
-                <FaHotel className="mr-2" />
-                Accommodations
-              </Link>
-              <Link
-                to="/discoveries"
-                className="flex items-center py-2 px-4 hover:bg-gray-200 rounded"
-                onClick={closeMenu}
-              >
-                <FaImages className="mr-2" />
-                Discoveries
-              </Link>
               {user ? (
                 <>
                   <Link
