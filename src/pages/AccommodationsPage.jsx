@@ -6,6 +6,7 @@ import CustomCarousel from "../components/Carousel";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
+
 const slides = [
   {
     image:
@@ -124,6 +125,7 @@ const AccommodationsPage = () => {
           </div>
         )}
       </div>
+      <footer/>
     </>
   );
 };

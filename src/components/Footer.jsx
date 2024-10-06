@@ -25,12 +25,6 @@ const Footer = () => {
             </Link>
           </li>
          
-          <li>
-            <Link to="/accommodations" className="hover:text-gray-400">
-              Accommodations
-            </Link>
-          </li>
-         
         </ul>
 
         {/* Social Media Icons */}
