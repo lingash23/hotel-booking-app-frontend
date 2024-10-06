@@ -12,22 +12,19 @@ const slides = [
     image:
       "https://content.r9cdn.net/rimg/himg/7b/e1/01/leonardo-104158-160195427-279728.jpg",
     title: "Welcome to Your VIVANTA ",
-    subtitle:
-      "Discover new places, make memories that last a lifetime.",
+    subtitle: "Discover new places, make memories that last a lifetime.",
   },
   {
     image:
       "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/47/43/0b/the-accord-metropolitan.jpg?w=1200&h=-1&s=1",
     title: "Very comfortable rooms",
-    subtitle:
-      "",
+    subtitle: "",
   },
   {
     image:
       "https://imgproxy.valpas.io/_xB_MHaG1Y_B8Ifn34pyRp42TZWYVnQpiXmzdD87TS0/rs:fill:832:434:0/wm:0:ce:0:0:0.4/aHR0cHM6Ly9pbWFnZXMuY3RmYXNzZXRzLm5ldC85Z3NwODg5dXdjbDgvNTJhNmNJMEp0NXFIcUdJUFQzZE9Lei84MGNjNDFmMWY2NzJkOWQ3OGZiNmVjZWZlYzY3MGI5YS9kZXNpZ25fMi5wbmc.jpeg",
     title: "Plan Your day",
-    subtitle:
-      "Ease and enjoy a seamless experience.",
+    subtitle: "Ease and enjoy a seamless experience.",
   },
 ];
 
@@ -97,7 +94,6 @@ const AccommodationsPage = () => {
               <option value="Hotel">Hotel</option>
               <option value="Hostel">Hostel</option>
               <option value="Resort">Resort</option>
-              <option value="Apartment">Apartment</option>
               <option value="Villa">Villa</option>
             </select>
             <button
@@ -108,7 +104,6 @@ const AccommodationsPage = () => {
             </button>
           </div>
         </form>
-
         {loading ? (
           <div className="flex flex-col justify-center items-center text-center">
             <Loader />
@@ -125,7 +120,7 @@ const AccommodationsPage = () => {
           </div>
         )}
       </div>
-      <footer/>
+      <Footer />
     </>
   );
 };

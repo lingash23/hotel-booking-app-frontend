@@ -17,16 +17,6 @@ const Footer = () => {
           <img src={logo} alt="Logo" className="h-12 rounded-full" />
         </div>
 
-        {/* Navigation Links */}
-        <ul className="flex space-x-6 mb-6 md:mb-0">
-          <li>
-            <Link to="/" className="hover:text-gray-400">
-              Home
-            </Link>
-          </li>
-         
-        </ul>
-
         {/* Social Media Icons */}
         <div className="flex space-x-6">
           <Link
