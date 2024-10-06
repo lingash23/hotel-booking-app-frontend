@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import CustomCarousel from "../components/Carousel";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 const slides = [
   {
